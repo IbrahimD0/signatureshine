@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Textarea } from "@/components/ui/textarea"
-import { Label } from "@/components/ui/label"
+// import { Textarea } from "@/components/ui/textarea"
+// import { Label } from "@/components/ui/label"
 
 
 export default function RequestServiceForm() {
@@ -10,7 +10,7 @@ export default function RequestServiceForm() {
       
       <main className="flex-grow flex items-top justify-center px-4 py-8 relative">
         <div className="w-full max-w-2xl ">
-          <form className="space-y-10 bg-gray-800 p-8 rounded-lg shadow-lg">
+          {/* <form className="space-y-10 bg-gray-800 p-8 rounded-lg shadow-lg">
             <h2 className="text-3xl font-bold mb-6 text-center">REQUEST SERVICE</h2>
             <div>
               <Label htmlFor="name" className="sr-only">Name</Label>
@@ -37,7 +37,7 @@ export default function RequestServiceForm() {
               <Textarea id="comments" placeholder="Location & Comments" className="bg-gray-700 text-white border-gray-600 text-lg" />
             </div>
             <Button type="submit" className="w-full bg-red-600 hover:bg-red-700 text-white py-6">SUBMIT</Button>
-          </form>
+          </form> */}
         </div>
       </main>
     </div>
