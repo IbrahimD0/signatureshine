@@ -1,6 +1,6 @@
 import Image from 'next/image'
 import { Button } from "@/components/ui/button"
-import Navbar from './navbar'
+
 
 export default function Services() {
   return (
