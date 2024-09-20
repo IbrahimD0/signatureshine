@@ -1,13 +1,11 @@
-import LandingPage from "@/components/langing";
 import Navbar from "@/components/navbar";
 import Services from "@/components/services";
-import Image from "next/image";
+import React from "react";
 
-export default function Home() {
+export default function page() {
   return (
     <>
       <Navbar />
-      <LandingPage />
       <Services />
     </>
   );
