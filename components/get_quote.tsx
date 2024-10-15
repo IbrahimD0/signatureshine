@@ -80,6 +80,7 @@ const BookingForm = () => {
         setSubmitMessage("Failed to submit booking request. Please try again.");
       }
     } catch (error) {
+      console.error('Error submitting form:', error);
       setSubmitMessage("An error occurred. Please try again later.");
     } finally {
       setIsSubmitting(false);
