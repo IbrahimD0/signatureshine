@@ -24,14 +24,7 @@ export default function ProfileCard() {
 
           {/* Social Links */}
           <div className="space-y-3">
-            <Button 
-              variant="outline" 
-              className="w-full bg-gray-700 border-gray-600 text-white hover:bg-gray-800 hover:text-white flex items-center gap-3 font-bold"
-              onClick={() => window.open('https://facebook.com/profile', '_blank')}
-            >
-              <Facebook size={32} strokeWidth={2} className="w-6 h-6 size={34}" />
-              Facebook
-            </Button>
+            
             <Button 
               variant="outline" 
               className="w-full bg-gray-700 border-gray-600 text-white hover:bg-gray-800 hover:text-white flex items-center gap-3 font-bold"
@@ -39,6 +32,14 @@ export default function ProfileCard() {
             >
               <Instagram size={32} strokeWidth={2} className="w-6 h-6" />
               Instagram
+            </Button>
+            <Button 
+              variant="outline" 
+              className="w-full bg-gray-700 border-gray-600 text-white hover:bg-gray-800 hover:text-white flex items-center gap-3 font-bold"
+              onClick={() => window.open('https://www.facebook.com/people/Signature-Shine/61571117429089/', '_blank')}
+            >
+              <Facebook size={32} strokeWidth={2} className="w-6 h-6 size={34}" />
+              Facebook
             </Button>
             
           </div>
