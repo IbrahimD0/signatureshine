@@ -26,7 +26,7 @@ export default function Services() {
           />
           <ServiceCard
             title="Exterior Detailing"
-            image="/img/services/second_service.jpg"
+            image="/img/services/exterior_detailing.webp"
             description="Our Exterior Detailing Hand Wash is a thorough and gentle cleaning process that removes dirt, grime, and contaminants from your car's exterior without damaging the paint."
             features={[
               "Pristine, streak-free exterior",
@@ -36,7 +36,7 @@ export default function Services() {
           />
           <ServiceCard
             title="Ceramic Coating"
-            image="/img/services/third_service.jpg"
+            image="/img/services/ceramic_coating.webp"
             description="Our Ceramic Coating service provides the ultimate protection for your car's exterior. This long-lasting, high-gloss coating forms a protective layer that shields your paint from UV rays, dirt, and water."
             features={[
               "Superior paint protection lasting up to 5 years",
@@ -48,7 +48,7 @@ export default function Services() {
           />
           <ServiceCard
             title="Paint Correction"
-            image="/img/services/fourth_service.jpg"
+            image="/img/services/paint_correction.webp"
             description="Our Paint Correction service restores the shine and clarity of your vehicle's paint by removing swirl marks, scratches, and other imperfections."
             features={[
               "Flawless, mirror-like paint finish",
@@ -106,7 +106,7 @@ function ServiceCard({
           height={300}
           className="w-full h-64 object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-tr from-[#161628] to-[#5117d738] mix-blend-overlay" />
+        <div className="absolute inset-0 bg-gradient-to-tr from-[#18162e] to-[#0d1e6338] mix-blend-overlay" />
         <div className="absolute inset-0 bg-black/20" />
       </div>
       <div className="p-6 relative z-10">

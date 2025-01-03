@@ -5,6 +5,7 @@ import React, { useState } from "react";
 const services = [
   { name: "Interior Detailing" },
   { name: "Exterior Detailing" },
+  { name: "Interior + Exterior (Save $10)" },
   { name: "Ceramic Coating" },
   { name: "Paint Correction" },
 ];
